@@ -1,0 +1,40 @@
+ body{
+     width: 500;
+     align-content: center;
+ }
+ 
+ #box {
+    border: 2px solid #fff;
+    padding: 10px;
+ }
+ #countholder{
+   font-family: sans-serif;
+   color: #fff;
+   display: inline-block;
+   font-weight: 100;
+   text-align: center;
+   font-size: 48px;
+   background-color: #008000;
+   padding:20px;
+   border-radius: 6px;
+   margin-left: 100px;
+   margin-top: 50px;
+   line-height: 1.4;
+  }
+   
+   
+  #box > div{
+   background: #008000;
+   padding: 4px 10px;
+   display: inline-block;
+  }
+   
+  #box div > span{
+   background: #008000;
+   display: inline-block;
+  }
+   
+  #box .smalltext{
+   padding-top: 5px;
+   font-size: 16px;
+  }
